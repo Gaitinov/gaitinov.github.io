@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,49 +17,60 @@
             background-color: #f9f9f9;
             color: #333;
             border: 1px solid #eee;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
         }
-        h1, h2, h3 {
+
+        h1,
+        h2,
+        h3 {
             color: #2c3e50;
             margin-bottom: 0.5em;
             font-weight: 600;
         }
+
         h1 {
             text-align: center;
             margin-bottom: 1em;
             font-size: 2.2em;
             color: #000000;
         }
+
         h2 {
             border-bottom: 2px solid #16a085;
             padding-bottom: 0.3em;
             margin-top: 1.8em;
             font-size: 1.5em;
         }
+
         h3 {
-             font-size: 1.2em;
-             color: #34495e;
-             margin-top: 1em;
+            font-size: 1.2em;
+            color: #34495e;
+            margin-top: 1em;
         }
+
         a {
             color: #16a085;
             text-decoration: none;
             transition: color 0.3s ease;
         }
+
         a:hover {
             text-decoration: none;
             color: #1abc9c;
         }
+
         ul {
             list-style-type: none;
             padding-left: 0;
             margin-left: 5px;
         }
+
         li {
             margin-bottom: 0.6em;
             padding-left: 20px;
             position: relative;
         }
+
         li::before {
             content: '•';
             color: #16a085;
@@ -68,81 +80,100 @@
             left: 0;
             top: 0;
         }
-        .contact-info p, .contact-info a {
+
+        .contact-info p,
+        .contact-info a {
             margin: 0.3em 0;
             font-size: 0.95em;
         }
+
         .contact-info {
             text-align: center;
             margin-bottom: 2em;
         }
-        .education-entry, .project-entry, .experience-entry {
+
+        .education-entry,
+        .project-entry,
+        .experience-entry {
             margin-bottom: 1.8em;
             padding-left: 10px;
             border-left: 3px solid #eee;
         }
-         .education-entry:hover, .project-entry:hover, .experience-entry:hover {
-             border-left-color: #1abc9c;
-         }
+
+        .education-entry:hover,
+        .project-entry:hover,
+        .experience-entry:hover {
+            border-left-color: #1abc9c;
+        }
 
         .education-header {
             display: block;
             margin-bottom: 0.5em;
         }
+
         .university-logo {
             width: 125px;
             height: auto;
             display: block;
         }
+
         strong {
-             font-weight: 600;
-             color: #2c3e50;
-        }
-        .skills-list span {
-             display: inline-block;
-             background-color: #ecf0f1;
-             color: #34495e;
-             padding: 4px 10px;
-             margin: 3px;
-             border-radius: 4px;
-             font-size: 0.9em;
+            font-weight: 600;
+            color: #2c3e50;
         }
 
+        .skills-list span {
+            display: inline-block;
+            background-color: #ecf0f1;
+            color: #34495e;
+            padding: 4px 10px;
+            margin: 3px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
     </style>
 </head>
+
 <body>
 
     <h1>Гайтинов Мухарам Рафаэльевич</h1>
 
     <section class="contact-info">
-        <p>Телефон: <a href="tel:+77775933144">+7 (708) 830-95-08</a></p>
+        <p>Телефон: <a href="tel:+77088309508">+7 (708) 830-95-08</a></p>
         <p>Email: <a href="mailto:muxarams@gmail.com">muxarams@gmail.com</a></p>
         <p>GitHub: <a href="https://github.com/Gaitinov" target="_blank">github.com/Gaitinov</a></p>
     </section>
 
     <section>
         <h2>О себе</h2>
-        <p>Подхожу к задачам с технической любознательностью, быстро и самостоятельно осваиваю необходимые знания, уделяя большое внимание аккуратности и деталям.</p>
+        <p>Подхожу к задачам с технической любознательностью, быстро и самостоятельно осваиваю необходимые знания,
+            уделяя большое внимание аккуратности и деталям.</p>
     </section>
 
     <section>
         <h2>Образование</h2>
         <div class="education-entry">
-             <div class="education-header">
-                 <img src="images/turan_logo.svg" alt="Логотип Университета Туран" class="university-logo">
-                 <a href="https://turan.edu.kz/ru/" target="_blank"><h3>Университет «Туран»</h3></a>
+            <div class="education-header">
+                <img src="images/turan_logo.svg" alt="Логотип Университета Туран" class="university-logo">
+                <a href="https://turan.edu.kz/ru/" target="_blank">
+                    <h3>Университет «Туран»</h3>
+                </a>
             </div>
             <p><strong>Специальность:</strong> Информационные системы</p>
             <p>Алматы, Казахстан</p>
             <p>Август 2024 – Настоящее время (Ожидаемый выпуск: Июнь 2027)</p>
+            <p><strong>GPA:</strong> 3.87</p>
         </div>
 
         <div class="education-entry">
             <div class="education-header">
                 <img src="images/catec.png" alt="Логотип ЦАТЭК" class="university-logo">
-                <a href="https://catec.kz/" target="_blank"><h3>«Центральноазиатский технико-экономический колледж»</h3></a>
+                <a href="https://catec.kz/" target="_blank">
+                    <h3>«Центральноазиатский технико-экономический колледж»</h3>
+                </a>
             </div>
-            <p><strong>Специальность:</strong> 1304000 - Вычислительная техника и программное обеспечение (с отличием)</p>
+            <p><strong>Специальность:</strong> 1304000 - Вычислительная техника и программное обеспечение (с отличием)
+            </p>
             <p><strong>Квалификация:</strong> Техник-программист, Оператор электронно-вычислительных машин</p>
             <p>Сентябрь 2020 – Июнь 2024</p>
         </div>
@@ -153,10 +184,16 @@
         <div>
             <strong>Технические:</strong>
             <p class="skills-list">
-                <span>Python</span> <span>SQL</span> <span>PostgreSQL</span> <span>SQLite</span>  <span>Git</span> <span>GitLab</span> <span>CI/CD</span>  <span>Linux (Опыт использования)</span> <span>MacOS (Опыт использования)</span> <span>Bash</span> <span>PowerShell</span> <span>HTML/CSS</span> <span>JavaScript (Основы)</span>  <span>Playwright</span> <span>Docker (Опыт использования)</span> <span>Selenium</span> <span>BeautifulSoup</span> <span>PyInstaller</span> <span>Inno Setup</span> <span>customtkinter</span>
+                <span>Python</span> <span>SQL</span> <span>PostgreSQL</span> <span>SQLite</span> <span>Django</span>
+                <span>Git</span> <span>GitLab</span> <span>CI/CD</span> <span>Linux (Опыт использования)</span>
+                <span>MacOS (Опыт использования)</span> <span>Bash</span> <span>PowerShell</span> <span>HTML/CSS</span>
+                <span>JavaScript (Основы)</span> <span>Nginx</span> <span>Docker</span> <span>Docker Compose</span>
+                <span>Playwright</span> <span>Selenium</span> <span>Scrapy</span> <span>BeautifulSoup</span>
+                <span>PyInstaller</span> <span>Inno Setup</span> <span>customtkinter</span> <span>Jira</span>
+                <span>WinPE</span>
             </p>
         </div>
-         <div>
+        <div>
             <strong>Языки:</strong>
             <p class="skills-list">
                 <span>Русский (Родной)</span> <span>Английский (Технический / Чтение документации)</span>
@@ -164,8 +201,29 @@
         </div>
     </section>
 
-     <section>
+    <section>
         <h2>Опыт работы / Практика</h2>
+
+        <div class="experience-entry">
+            <div class="education-header">
+                <img src="images/bereke_bank.svg" alt="Логотип Bereke Bank" class="university-logo">
+                <h3>Практикант, Департамент Поддержки Технологий ЦО</h3>
+            </div>
+            <p><a href="https://berekebank.kz/" target="_blank"><strong>АО «Bereke Bank»</strong></a></p>
+            <p>Май 2025 – Июнь 2025</p>
+            <ul>
+                <li>Подготавливал и вводил в эксплуатацию новые рабочие места: сборка оборудования, развёртывание ОС
+                    (Windows), сетевая настройка и установка корпоративного ПО.</li>
+                <li>Обрабатывал инциденты и запросы пользователей через Jira с соблюдением SLA; выполнял текущее
+                    техническое обслуживание.</li>
+                <li>Диагностировал и заменял компоненты оборудования (HDD, SSD, RAM); выполнял аппаратный сброс BIOS.
+                </li>
+                <li>Использовал WinPE для системных задач: сброс локальных паролей, клонирование дисков, восстановление
+                    данных с повреждённых носителей.</li>
+                <li>Участвовал в инвентаризации, списании и утилизации оборудования.</li>
+            </ul>
+        </div>
+
         <div class="experience-entry">
             <div class="education-header">
                 <img src="images/ibec_systems.png" alt="Логотип IBEC Systems" class="university-logo">
@@ -174,11 +232,16 @@
             <p><a href="https://ibecsystems.com/" target="_blank"><strong>IBEC Systems</strong></a></p>
             <p>Февраль 2024 – Май 2024</p>
             <ul>
-                <li>Разрабатывал и настраивал Telegram-бота на Python с использованием Docker, решая задачи по статистике, взаимодействию с БД (PostgreSQL) и UI.</li>
-                <li>Обновлял пакеты tzdata и настраивал часовые пояса в проектах на Django и Docker для корректной работы с временем при смене часового пояса.</li>
-                <li>Разрабатывал скрипты для веб-скрейпинга (парсинга) данных с использованием BeautifulSoup и Playwright</li>
-                <li>Работал с Selenium и Playwright для автоматизации взаимодействия с веб-приложениями и динамическими страницами.</li>
-                <li>Настраивал системы логирования и создавал исполняемые файлы (.exe) и установщики (Inno Setup) для приложений.</li>
+                <li>Разрабатывал и настраивал Telegram-бота на Python с использованием Docker, решая задачи по
+                    статистике, взаимодействию с БД (PostgreSQL) и UI.</li>
+                <li>Обновлял пакеты tzdata и настраивал часовые пояса в проектах на Django и Docker для корректной
+                    работы с временем при смене часового пояса.</li>
+                <li>Разрабатывал скрипты для веб-скрейпинга (парсинга) данных с использованием BeautifulSoup и
+                    Playwright</li>
+                <li>Работал с Selenium и Playwright для автоматизации взаимодействия с веб-приложениями и динамическими
+                    страницами.</li>
+                <li>Настраивал системы логирования и создавал исполняемые файлы (.exe) и установщики (Inno Setup) для
+                    приложений.</li>
                 <li>Использовал GitLab для контроля версий и ознакомился с основами CI/CD.</li>
                 <li>Применял корпоративные инструменты: Wiki для документации, TeamWork для задач.</li>
             </ul>
@@ -191,9 +254,12 @@
         <div class="project-entry">
             <h3>Check-Prices: Система отслеживания цен</h3>
             <ul>
-                <li>Разработал приложение для автоматического мониторинга и уведомления об изменениях цен на товары в указанных интернет-магазинах.</li>
-                <li>Использовал Playwright для взаимодействия с веб-страницами, извлечения информации о ценах и обработки динамического контента.</li>
-                <li>Реализовал упаковку приложения в исполняемый файл (.exe), включая настройку окружения Playwright и встраивание необходимых браузерных движков (Chromium).</li>
+                <li>Разработал приложение для автоматического мониторинга и уведомления об изменениях цен на товары в
+                    указанных интернет-магазинах.</li>
+                <li>Использовал Playwright для взаимодействия с веб-страницами, извлечения информации о ценах и
+                    обработки динамического контента.</li>
+                <li>Реализовал упаковку приложения в исполняемый файл (.exe), включая настройку окружения Playwright и
+                    встраивание необходимых браузерных движков (Chromium).</li>
                 <li>Настроил логику сравнения цен и механизм оповещения пользователя.</li>
             </ul>
             <p><strong>Технологии:</strong> Python, Playwright, PyInstaller (auto-py-to-exe)</p>
@@ -204,8 +270,10 @@
             <h3>Система тестирования с GUI</h3>
             <ul>
                 <li>Создал десктопное приложение с графическим интерфейсом для проведения тестирования знаний.</li>
-                <li>Реализовал загрузку и парсинг вопросов, вариантов ответов и изображений из файлов формата `.docx`.</li>
-                <li>Разработал функционал перемешивания вопросов и ответов, установки ограничений по времени и количеству вопросов для теста.</li>
+                <li>Реализовал загрузку и парсинг вопросов, вариантов ответов и изображений из файлов формата `.docx`.
+                </li>
+                <li>Разработал функционал перемешивания вопросов и ответов, установки ограничений по времени и
+                    количеству вопросов для теста.</li>
                 <li>Внедрил возможность экспорта результатов тестирования (например, списка неправильных ответов).</li>
                 <li>Построил пользовательский интерфейс с использованием библиотеки `customtkinter`.</li>
             </ul>
@@ -215,4 +283,5 @@
     </section>
 
 </body>
+
 </html>
